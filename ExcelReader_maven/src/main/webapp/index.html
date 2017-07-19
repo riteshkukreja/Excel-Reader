@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Excel File Uploader</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style/display.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Choose Excel File to Upload in Server</h1>
+        <form action="ExcelUploader" method="post" enctype="multipart/form-data">
+            <label>
+                Select Excel File to Import
+                <input type="file" id="fileHandler" name="file" hidden/>
+            </label>
+            <input type="submit" value="upload" />
+        </form>
+    </body>
+</html>
